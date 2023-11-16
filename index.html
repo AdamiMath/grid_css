@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>PotterSection - Magia do CSS Grid Layout</title>
+    <script>
+        document.documentElement.className += ' js';
+    </script>
 </head>
 <body>
     <div class="estrutura">
@@ -18,16 +21,16 @@
                 </ul>
             </nav>
         </header>
-        <nav class="sidenav">
+        <nav class="sidenav js-tabmenu">
                 <ul>
-                    <li><a href=""><img src="/public/imgs/grifyndor_logo.png" alt="Grifinória"></a></li>
-                    <li><a href=""><img src="/public/imgs/raveclaw_logo.png" alt="Corvinal"></a></li>
-                    <li><a href=""><img src="/public/imgs/slytheryn_logo.png" alt="Sonserina"></a></li>
-                    <li><a href=""><img src="/public/imgs/hufflepuff_logo.png" alt="Lufa-Lufa"></a></li>
+                    <li><a class="grifinoria" href=""><img src="/public/imgs/grifyndor_logo.png" alt="Grifinória"></a></li>
+                    <li><a  class="corvinal" href=""><img src="/public/imgs/raveclaw_logo.png" alt="Corvinal"></a></li>
+                    <li><a class="sonserina" href=""><img src="/public/imgs/slytheryn_logo.png" alt="Sonserina"></a></li>
+                    <li><a class="lufa" href=""><img src="/public/imgs/hufflepuff_logo.png" alt="Lufa-Lufa"></a></li>
                 </ul>
         </nav>
 
-        <main class="content">
+        <section class="content js-tabcontent">
             <div class="titulo">
                 <h1>Grifinória</h1>
                 <span>Criado pelo corajaso Godrico Grifinória</span>
@@ -89,9 +92,204 @@
                 </p>
             </div>
             <img class="col-wide" src="/public/imgs/footer-gryfindor.png" alt="">
-        </main>
+        </section>
+
+        <section class="content js-tabcontent">
+            <div class="titulo">
+                <h1>Corvinal</h1>
+                <span>Criado pelo corajaso Godrico Grifinória</span>
+            </div>
+            <div class="caracteristicas">
+                <div>
+                    <span class="numero">100</span>
+                    <span class="rotulos">Alunos</span>
+                </div>
+                 <div>
+                    <span class="numero">5</span>
+                    <span class="rotulos">Campeonato das Casas</span>
+                </div>
+            </div>
+            <p class="col-wide">
+                Com coragem, lealdade e companheirismo entre as qualidades que se destacam em seus membros,
+                 a Grifinória já foi casa de vários cantores e artistas do mundo bruxo, 
+                 pessoas que levaram sua vida sempre com ousadia.
+            </p>
+            <img class="imagem1" src="/public/imgs/sala-somunal-grifinoria.jpg" alt="imagem grifinória">
+            <p class="destaque">"Quem sabe sua morada é a Grifinória; casa onde habitam os corações indômitos;
+                 ousadia e sangue-frio e nobreza destacam os alunos da Grifinória dos demais"
+            </p>
+            <img class="imagem2" src="/public/imgs/gryfindor_img_1.png" alt="sala comunal grifinória">
+            <p>Embora a Sonserina leve a fama de "produzir" um maior número de bruxos das trevas, 
+                ser da Grifinória não significa que a pessoa seja do bem,
+                afinal sua lealdade pode ter se voltado para o lado errado. Basta ver o exemplo de Peter Pettigrew.
+            </p>
+            <p>
+                Entre os membros mais conhecidos da Grifinória estão: Albus Dumbledores, Rubeus Hagrid, 
+                Minerva McGonagall (diretora da Grifinória mais recente), 
+                Tiago Potter, Lily Potter, Harry Potter, Ronald Weasley (bem como todos os demais Weasleys), 
+                Hermione Granger, entre outros.
+            </p>
+            <blockquote class="citacao col-wide">
+                <p>Disse Gryffindor: "Nós vamos ensinar a todos aqueles com os bravos feitos do seu nome."</p>
+            </blockquote>
+            <ul class="lista-de-atributos">
+                <li>Criador: Godric Gryffindor</li>
+                <li>Nome em inglês: Gryffindor</li>
+                <li>Animal Simbolo: Leão</li>
+                <li>Fantasma: Nick Quase-Sem-Cabeça</li>
+                <li>Cores: Vermelho e Dourado</li>
+            </ul>
+            <div class="informacoes">
+                <h2>Curiosidades</h2>
+                <p>
+                    Godric Grinffindor deixou sua poderosa espada, cravada de rubis, como uma forma de ajuda para
+                     todos aqueles verdadeiros membros da Grifinória que um dia precisassem. 
+                     Em Harry Potter e a Câmara Secreta, 
+                    Harry teve acesso à espada por meio do Chapéu Seletor, com a arma se materializando no chapéu.
+                </p>
+                <p>
+                    Godric Grinffindor era um grande amigo de Salazar Slytherin,
+                     um dos co-fundadores de Hogwarts e criador da casa Sonserina. 
+                     Contudo, os bruxos entraram em completa discordância quando Slytherin
+                    votou por aceitar em Hogwarts apenas estudantes de "puro sangue", 
+                    ou seja, nascidos em famílias bruxas, e não descendentes de trouxas (pessoas não-mágicas).
+                </p>
+            </div>
+            <img class="col-wide" src="/public/imgs/footer-gryfindor.png" alt="">
+        </section>
+
+        <section class="content js-tabcontent">
+            <div class="titulo">
+                <h1>Sonserina</h1>
+                <span>Criado pelo corajaso Godrico Grifinória</span>
+            </div>
+            <div class="caracteristicas">
+                <div>
+                    <span class="numero">100</span>
+                    <span class="rotulos">Alunos</span>
+                </div>
+                 <div>
+                    <span class="numero">5</span>
+                    <span class="rotulos">Campeonato das Casas</span>
+                </div>
+            </div>
+            <p class="col-wide">
+                Com coragem, lealdade e companheirismo entre as qualidades que se destacam em seus membros,
+                 a Grifinória já foi casa de vários cantores e artistas do mundo bruxo, 
+                 pessoas que levaram sua vida sempre com ousadia.
+            </p>
+            <img class="imagem1" src="/public/imgs/sala-somunal-grifinoria.jpg" alt="imagem grifinória">
+            <p class="destaque">"Quem sabe sua morada é a Grifinória; casa onde habitam os corações indômitos;
+                 ousadia e sangue-frio e nobreza destacam os alunos da Grifinória dos demais"
+            </p>
+            <img class="imagem2" src="/public/imgs/gryfindor_img_1.png" alt="sala comunal grifinória">
+            <p>Embora a Sonserina leve a fama de "produzir" um maior número de bruxos das trevas, 
+                ser da Grifinória não significa que a pessoa seja do bem,
+                afinal sua lealdade pode ter se voltado para o lado errado. Basta ver o exemplo de Peter Pettigrew.
+            </p>
+            <p>
+                Entre os membros mais conhecidos da Grifinória estão: Albus Dumbledores, Rubeus Hagrid, 
+                Minerva McGonagall (diretora da Grifinória mais recente), 
+                Tiago Potter, Lily Potter, Harry Potter, Ronald Weasley (bem como todos os demais Weasleys), 
+                Hermione Granger, entre outros.
+            </p>
+            <blockquote class="citacao col-wide">
+                <p>Disse Gryffindor: "Nós vamos ensinar a todos aqueles com os bravos feitos do seu nome."</p>
+            </blockquote>
+            <ul class="lista-de-atributos">
+                <li>Criador: Godric Gryffindor</li>
+                <li>Nome em inglês: Gryffindor</li>
+                <li>Animal Simbolo: Leão</li>
+                <li>Fantasma: Nick Quase-Sem-Cabeça</li>
+                <li>Cores: Vermelho e Dourado</li>
+            </ul>
+            <div class="informacoes">
+                <h2>Curiosidades</h2>
+                <p>
+                    Godric Grinffindor deixou sua poderosa espada, cravada de rubis, como uma forma de ajuda para
+                     todos aqueles verdadeiros membros da Grifinória que um dia precisassem. 
+                     Em Harry Potter e a Câmara Secreta, 
+                    Harry teve acesso à espada por meio do Chapéu Seletor, com a arma se materializando no chapéu.
+                </p>
+                <p>
+                    Godric Grinffindor era um grande amigo de Salazar Slytherin,
+                     um dos co-fundadores de Hogwarts e criador da casa Sonserina. 
+                     Contudo, os bruxos entraram em completa discordância quando Slytherin
+                    votou por aceitar em Hogwarts apenas estudantes de "puro sangue", 
+                    ou seja, nascidos em famílias bruxas, e não descendentes de trouxas (pessoas não-mágicas).
+                </p>
+            </div>
+            <img class="col-wide" src="/public/imgs/footer-gryfindor.png" alt="">
+        </section>
+
+        <section class="content js-tabcontent">
+            <div class="titulo">
+                <h1>Lufa-Lufa</h1>
+                <span>Criado pelo corajaso Godrico Grifinória</span>
+            </div>
+            <div class="caracteristicas">
+                <div>
+                    <span class="numero">100</span>
+                    <span class="rotulos">Alunos</span>
+                </div>
+                 <div>
+                    <span class="numero">5</span>
+                    <span class="rotulos">Campeonato das Casas</span>
+                </div>
+            </div>
+            <p class="col-wide">
+                Com coragem, lealdade e companheirismo entre as qualidades que se destacam em seus membros,
+                 a Grifinória já foi casa de vários cantores e artistas do mundo bruxo, 
+                 pessoas que levaram sua vida sempre com ousadia.
+            </p>
+            <img class="imagem1" src="/public/imgs/sala-somunal-grifinoria.jpg" alt="imagem grifinória">
+            <p class="destaque">"Quem sabe sua morada é a Grifinória; casa onde habitam os corações indômitos;
+                 ousadia e sangue-frio e nobreza destacam os alunos da Grifinória dos demais"
+            </p>
+            <img class="imagem2" src="/public/imgs/gryfindor_img_1.png" alt="sala comunal grifinória">
+            <p>Embora a Sonserina leve a fama de "produzir" um maior número de bruxos das trevas, 
+                ser da Grifinória não significa que a pessoa seja do bem,
+                afinal sua lealdade pode ter se voltado para o lado errado. Basta ver o exemplo de Peter Pettigrew.
+            </p>
+            <p>
+                Entre os membros mais conhecidos da Grifinória estão: Albus Dumbledores, Rubeus Hagrid, 
+                Minerva McGonagall (diretora da Grifinória mais recente), 
+                Tiago Potter, Lily Potter, Harry Potter, Ronald Weasley (bem como todos os demais Weasleys), 
+                Hermione Granger, entre outros.
+            </p>
+            <blockquote class="citacao col-wide">
+                <p>Disse Gryffindor: "Nós vamos ensinar a todos aqueles com os bravos feitos do seu nome."</p>
+            </blockquote>
+            <ul class="lista-de-atributos">
+                <li>Criador: Godric Gryffindor</li>
+                <li>Nome em inglês: Gryffindor</li>
+                <li>Animal Simbolo: Leão</li>
+                <li>Fantasma: Nick Quase-Sem-Cabeça</li>
+                <li>Cores: Vermelho e Dourado</li>
+            </ul>
+            <div class="informacoes">
+                <h2>Curiosidades</h2>
+                <p>
+                    Godric Grinffindor deixou sua poderosa espada, cravada de rubis, como uma forma de ajuda para
+                     todos aqueles verdadeiros membros da Grifinória que um dia precisassem. 
+                     Em Harry Potter e a Câmara Secreta, 
+                    Harry teve acesso à espada por meio do Chapéu Seletor, com a arma se materializando no chapéu.
+                </p>
+                <p>
+                    Godric Grinffindor era um grande amigo de Salazar Slytherin,
+                     um dos co-fundadores de Hogwarts e criador da casa Sonserina. 
+                     Contudo, os bruxos entraram em completa discordância quando Slytherin
+                    votou por aceitar em Hogwarts apenas estudantes de "puro sangue", 
+                    ou seja, nascidos em famílias bruxas, e não descendentes de trouxas (pessoas não-mágicas).
+                </p>
+            </div>
+            <img class="col-wide" src="/public/imgs/footer-gryfindor.png" alt="">
+        </section>
+        
         <aside class="anuncios">
+            
             <div class="anuncio-item">
+                
                 <img src="/public/imgs/anuncio-hp-1.jpg" alt="anuncios">
             </div>
             <div class="anuncio-item">
@@ -102,5 +300,6 @@
             <p>Harry Potter 2023. Alguns direitos reservados</p>
         </footer>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
