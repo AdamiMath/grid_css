@@ -241,7 +241,7 @@ p{
 .caracteristicas > div{
     width: 80px;
     text-align: center;
-    background: linear-gradient(135deg, #000, #5f5c5c);
+    background: linear-gradient(135deg, #000000, #5f5c5c);
     border-radius: 5px;
     box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
     position: relative;
