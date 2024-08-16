@@ -68,7 +68,6 @@ img{
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
-<<<<<<< HEAD
     justify-content: center;
     display: flex;
 }
@@ -77,11 +76,6 @@ img{
     justify-content: center;
     margin: 0 auto;
     
-=======
-}
-.logo{
-    max-width: 200px;
->>>>>>> cb4e1acd69d7efd981b7f2c849ecb9b789963573
 }
 .header nav ul{
     display: flex;
@@ -103,10 +97,7 @@ img{
 }
 .header li + li{
     margin-left: 20px;
-<<<<<<< HEAD
     
-=======
->>>>>>> cb4e1acd69d7efd981b7f2c849ecb9b789963573
 }
 
 @media (max-width: 760px){
