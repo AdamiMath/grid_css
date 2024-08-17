@@ -5,7 +5,7 @@ body, p, ul, li, blockquote, h1, h2{
 
 @font-face{
 font-family: 'Hp';
-  src: local('Hp'), url('/public/font/HARRYP__.TTF');
+  src: local('Hp'), url('font/HARRYP__.TTF');
 }
 body{
     font-family: 'Hp';
